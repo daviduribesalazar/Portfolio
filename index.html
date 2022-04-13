@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es"><!--el idioma del html es castellano-->
+    <head>
+        <meta charset="UTF-8">
+        <title>PORTFOLIO-David Uribe Salazar</title><!--titulo del navegador-->
+        <link rel="icon" href="./imagenes/empresasicono.ico">
+        <link rel="stylesheet" href="estilos.css"><!--link a la hoja de estilo css-->
+    </head>
+    <body><!--Todo lo que está dentro del body es lo que se va mostrar en la pagina-->
+        <input type="radio" name="radio" id="radio11" checked><!--Este input es para que cada vez que le des a la flecha de atras se despliegue al menú inicial con el titulo my Portfolio-->
+        <div class="contenedor1"><!--se crea un contenedor que contiene dos menús,el titulo en h1 y mi nombre en h2 de esta forma se puede diferenciar de los otras apratados y cambiar el estilo -->
+            <ul class="listamaterias">
+                <li><!--cada elemento de la lista es un icono que esta linkieado a su apartado correspondiente mediante el "radio", cada elemento tiene una sublista con su nombre, para que cuando pongas el mouse encima se despliegue el nombre-->
+                    <label for="radio1"><img src="./imagenes/matesicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>Origin,jouney and consequence</li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="radio7"><img src="./imagenes/ticicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>Oasis</li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="radio2"><img src="./imagenes/programacionicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>Prohibido</li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="radio3"><img src="./imagenes/contingutsicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>GOT WORDS</li>
+                    </ul>
+
+                </li>
+            </ul>
+            <h1>MY PORTFOLIO</h1>
+            <a href="./videocontinguts.html"><h2>By David Uribe Salazar</h2></a>
+            <ul class="listamaterias">
+                <li>
+                    <label for="radio5"><img src="./imagenes/expresionicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>Cadira EPS</li>
+                    </ul>
+
+                </li>
+                <li>
+                    <label for="radio8"><img src="./imagenes/arte digitalicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>Art Nouveau Poster</li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="radio6"><img src="./imagenes/redesicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>New Portal Rest</li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="radio4"><img src="./imagenes/twebicono.png" alt="imagen"></label>
+                    <ul>
+                        <li>PORTAIT 1</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contenedor2"><!--Este contenedor contiene el contenido de cada aparatado-->
+            <!--cada apartado tiene una extructura similar, alfunos contienen videos y otros imagenes-->
+            <input type="radio" name="radio" id="radio1"><!--Este input es para que cada vez que se la haga click en el abel correspondiente se chekee en contenido y aparezca -->
+            <div class="tab1"><!--Este contenido tiene una imagen, un titulo, un parrafo y una flecha que te despliega el menú inicial-->
+                <video class="imagenempresas" controls>
+                    <source src="./imagenes/origin, journey and consequence.mp4" type="video/mp4">
+                </video>
+                <h2 class="tituloempresas">SELF PORTAIT</h2>
+                <p class="pempresas"><em>Origin,jouney and consequence</em> This work is a photo montage created with the software Adobe Photoshop. The objective of this project was to create a composition in which I could describe me as a person, in order to do that I used different symbolic elements and distributed the objects and colors to create a composition that gave details about my personality. To perform this project I based on three artistic movements, those are, surrealism, pop art and the Renaissance, since I believed that those were the ones that best fit with the message I wanted to convey. To learn more about this project go to the following <a href="https://drive.google.com/file/d/1ZwkKzVM2VvqtObVT-r2g0s1jSxtcWHwm/view"> link.</a></p>
+                <label class="atras1-2" for="radio11"><!--este label es para que cada vez que le das click a la imagen se chekee el menú inicial y se despliegue-->
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+            
+            <input type="radio" name="radio" id="radio2" >
+            <div class="tab2">
+                <h2 class="tituloprogramacion">Prohibido</h2>
+                <p class="pprogramacion"><em>Prohibido</em> Is a university work designed for a hypothetic music album, in this project I had to create the Album cover in which I tried to capture the sounds and meaning of the songs, the essence of the musical style is tried to be achieved through symbology, in which the heart symbolizes the forbidden fruit and the snake the temptation or the search for truth. In terms of composition, I used chromatic colors and a more symmetrical and centered structure.</p>
+                <p class="pprogramacion2"> I did also an AR filter for instagram used to promote the album, in which you can see a heart beating and in its surrounding circles that are spinning over it, also you can hear the sound of the beats and some music in the background. The 3d animation appears when your phone detects the image of the cover.</p>
+                <p class="pprogramacion3"> To create this filter I used 4 programs, this are photoshop, Zbrush, 3ds max and Spark AR. The first thing that I did was downloading a 3d figure of the heart, I searched for a 3d model similar to the heart in the cover, then I imported the file into zbrush where I did some changes to the topology and created the texture by polypaint, to create it I based on the picture of the original heart in the cover. After that I imported the file into 3ds max where I created the animation in order to see the movement of the beats and finally, I imported everything into spark AR to create the filter.</p>
+                <video class="videoprogramacion" controls loop autoplay>
+                    <source src="./imagenes/Album cover.mp4" type="video/mp4">
+                </video>
+                <video class="videoprogramacion2" controls>
+                    <source src="./imagenes/Filtro instagram.mp4" type="video/mp4">
+                </video>
+                <label class="atras3" for="radio11">
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+            
+            <input type="radio" name="radio" id="radio3" >
+            <div class="tab3">
+                <h2 class="titulocontenidos">DATA INSLATION</h2>
+                <video class="imgcontinguts" controls loop autoplay>
+                    <source src="./imagenes/video got.mp4" type="video/mp4">
+                </video>
+                <img class="imgcontinguts2" src="./imagenes/foto got.png" alt="">
+                <p class="pcontenidos"><em>GOT WORDS</em> This Project was a university work in which I had to collect information from an extensive database, the objective of this was to design an installation in which all this data could be visualized in an interactive way. For this work I based myself on the script of each season of the series "Game of Thrones" from which I extracted all the data, once I thought about the design of the installation that best suited the structure of the data, I created a model in the program 3d Max studio and made a little animation to show how it would look like. To learn more about this project go to the following <a href="https://drive.google.com/file/d/1-jRUYOknAw8WS3hzLYpBnRxud1fuJIFy/view?usp=sharing"> link.</a></p>
+                <label class="atras3" for="radio11">
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+            
+            
+            <input type="radio" name="radio" id="radio4" >
+            <div class="tab4">
+                <h2 class="tituloempresas">ILUSTRATION</h2>
+                <p class="pweb"><em>PORTRAIT 1</em> This is a digital illustration developed in Clip Studio software. The creative process was very interesting because it was a personal project, so I had total freedom to experiment and learn during the process. The first thing I did was looking for a reference image, when I had defined the shape of the character, I began to create a color palette for the skin, eyes and hair, after this I began to apply the different tones to the character, always respecting the lights and the shadows, finally for the background I chose some pastel or earthy colors and applied them on the background, then I mixed them creating a very interesting visual effect.</p>
+                <img class="videotweb" src="./imagenes/retrato 1.png" alt="">
+                <label class="atras1-2" for="radio11"><!--este label es para que cada vez que le das click a la imagen se chekee el menú inicial y se despliegue-->
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+
+            <input type="radio" name="radio" id="radio5">
+            <div class="tab5">
+                <h2 class="tituloexpresion">Cadira EPS</h2>
+                <ul class="contendorparrafocadiraeps">
+                    <li>
+                        <p class="pexpresion"><em>Cadira EPS</em> was a university group project, it consisted in creating the brand image of a hypothetical company and the elaboration of its main product, a chair. </p>
+                    </li>
+
+                    <li>
+                        <p class="pexpresion">To start the project first we developed a creative Briefing, in order to identify the needs of the company and to know in better way what kind of product they wanted.</p>
+                    </li>
+
+                    <li>
+                        <p class="pexpresion">After having this clear, we began to develop the brand image, creating different sketches of the logo and choosing the colours that best fits with the brand values.</p>
+                    </li>
+
+                    <li>
+                        <p class="pexpresion">In the creative process of the chair, we first proposed different designs, until finally we chose a final prototype, which we believed to be the most ergonomic, easy to build and economical. We made a model of the chair in foam board, a 3D render and finally, we create the real prototype with wood.</p>
+                    </li>
+
+                    <li>
+                        <p class="pexpresion">Click on the <a href="https://hidalgosaraortiz.wixsite.com/cadiraeps">link</a> to go to the web where you can see more about the project.</p>
+                    </li>
+
+                </ul>
+                
+                <video class="imgexpresión" controls>
+                    <source src="./imagenes/VIDEOCADIRAEPS.mp4" type="video/mp4">
+                </video>
+                <label class="atras1-2" for="radio11">
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+
+            <input type="radio" name="radio" id="radio6" >
+            <div class="tab6">
+                <h2 class="titulointeraccion">UX & UI</h2>
+                <video class="videointeraccion" controls>
+                    <source src="./imagenes/PortalRest Prototipo final.mp4" type="video/mp4">
+                </video>
+                <p class="pinteraccion"><em>New Portal Rest</em> This project consisted of redesigning and restructuring a food application called Portal Rest. To carry out the final product we had to do different studies to analyse and find out what was not working well into the app, we did a heuristic, a guerrilla test and a tree testing. Once we have done this studies, we made different sketches for the final prototype and through the Adobe XD program we created the high-fidelity prototype, giving the app a new usability and making it more usable.</p>
+
+                <label class="atras1-2" for="radio11">
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+
+            <input type="radio" name="radio" id="radio7" >
+            <div class="tab7">
+                <h2 class="titulodiseño">environment design</h2>
+                <ul class="contendorparrafooasis">
+                    <li>
+                        <p class="pdiseño"><em>Oasis</em> Is a natural environment created with the program "3D Unreal Engine". To create this environment, I downloaded different elements from the Megascans gallery such as plants, stones and textures, then I modeled the cave in "Zbrush" and placed these elements so that look as natural as possible, finally I put lights on the scene to create a greater effect of realism. </p>
+                    </li>
+
+                    <li>
+                        <p class="pdiseño">For this project I was inspired by the cenotes and oases that are places where there can be vegetation in an arid environment due to the presence of water, within the scene this effect can be achieved through the use of arid or desert textures that contrast with the plants and water.</p>
+                    </li>
+                </ul>
+                <video class="videodiseño" controls>
+                    <source src="./imagenes/oasis_diseño digital.mp4" type="video/mp4">
+                </video>
+                <label class="atras1-2" for="radio11">
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+
+            <input type="radio" name="radio" id="radio8" >
+            <div class="tab8">
+                <h2 class="tituloredes">Poster</h2>
+                <ul class="contendorparrafoartnou">
+                    <li>
+                        <p class="predes"><em>Art Nouveau Poster</em> This is an illustration that I developed with Adobe Photoshop, Adobe Illustrator and Clip Studio, it was a complementary work for the Cadira EPS project, which consisted of creating an Advertising Poster to promote a chair, this poster had to follow an aesthetic and preserve the characteristics of Art Nouveau.</p>
+                    </li>
+
+                    <li>
+                        <p class="predes">To create this illustration, I based on different artists of the movement, mainly in Alfons Mucha, who had a much more naturalistic and ornamental approach. The adobe illustrator software helped me a lot to create all the ornaments of the illustration, since, due to its vector drawing, it simplifies the creation of symmetrical and repetitive forms. For the character`s elaboration I used clip studio since it is a very good software to make digital drawings, finally I used Photoshop to give color and texture to all the background ornament.</p>
+                    </li>
+
+                    <li>
+                        <p class="predes">The objective of the poster is to give a feeling of warmth and freshness, for this reason I used warm colors that evoke nature, such as red, green, brown and yellow.</p>
+                    </li>
+                </ul>
+                <video class="imgredes" controls>
+                    <source src="./imagenes/cartel art nouveau.mp4" type="video/mp4">
+                </video>
+                <label class="atras1-2" for="radio11">
+                    <img src="./imagenes/flechaicono.png" alt="">
+                </label>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
